@@ -8,9 +8,9 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 
-		double pi = 3.14159;
+		double PI = 3.14159;
 		double raio = input.nextDouble();
-		double area = pi * Math.pow(raio, 2);
+		double area = Pi * Math.pow(raio, 2);
 
 		System.out.printf("A=%.4f%n", area);
 
